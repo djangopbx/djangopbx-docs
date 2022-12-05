@@ -10,8 +10,10 @@ DjangoPBX - A full-featured domain based multi-tenant PBX driven by Django and F
 The objective of this repository is to provide documentation for the DjabgoPBX project.
 Documents in this repository are built in the .rst format with Sphinx.
 
+
 ### Getting Started
-You will need Git.  Have a look at the link below in Useful Resources.
+You will need Git.  Have a look at the links below in Useful Resources.
+
 
 #### Setting Up the Documentation Locally
 Assuming that you have [Python](www.python.org) alrady installed, install Sphinx locally:
@@ -46,6 +48,7 @@ $ git push -u origin main
 ```
 
 Information about formatting text using .rst files can be found in the documentation links below:
+
 
 ### Useful Resources
  - [Setting up Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
