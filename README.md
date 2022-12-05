@@ -42,7 +42,7 @@ Assuming the file you have created is called newfeature.rst:
 ```
 $ git add newfeature.rst
 $ git commit -m 'your commit message'
-$ git push -u origin master
+$ git push -u origin main
 ```
 
 Information about formatting text using .rst files can be found in the documentation links below:
