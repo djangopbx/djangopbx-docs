@@ -1,2 +1,4 @@
 build
 .DS_Store
+*.ahf_save
+ahftest.*
