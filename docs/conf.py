@@ -7,9 +7,9 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'DjangoPBX'
-copyright = '2022, Adrian Fretwell'
+copyright = '2016-2022, Adrian Fretwell'
 author = 'Adrian Fretwell'
-release = '0.2.0'
+release = '0.5.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -17,12 +17,13 @@ release = '0.2.0'
 extensions = []
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '*.ahf_save', 'ahftest.*']
 
 
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+#html_theme = 'alabaster'
+html_theme = 'haiku'
 html_static_path = ['_static']
