@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'DjangoPBX'
-copyright = '2016-2022, Adrian Fretwell'
+copyright = '2016-2023, Adrian Fretwell'
 author = 'Adrian Fretwell'
 release = '0.5.0'
 
