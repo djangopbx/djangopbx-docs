@@ -35,7 +35,7 @@ $ make html
 
 Open index.html with your web browser to view your documentation:
 ```
-djangopbx-docs/build/html/index.html
+djangopbx-docs/docs/_build/html/index.html
 ```
 
 Edit your reStructuredTest files and then rebuild until you think they convey what you want.

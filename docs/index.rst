@@ -1,14 +1,6 @@
+Home
+======
 
-.. image:: _static/images/logo.png
-        :width: 250pt
-        :align: center
-        :height: 70pt
-
-|
-
-
-Welcome to the DjangoPBX documentation
-======================================
 
 **DjangoPBX** is a project to provide a GUI configuration
 and management interface around FreeSWITCH™ using Django

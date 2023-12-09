@@ -26,4 +26,16 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '*.ahf_save', 'ahftest.*
 
 #html_theme = 'alabaster'
 html_theme = 'haiku'
+html_theme_options = {
+    'textcolor': '#595959',
+    'headingcolor': '#073664',
+    'linkcolor': '#5959ff',
+    'visitedlinkcolor': '#5959ff',
+    'hoverlinkcolor': '#5959ff'
+}
+
 html_static_path = ['_static']
+
+html_logo = "_static/images/logo.png"
+html_favicon = "_static/images/djangopbx.ico"
+
