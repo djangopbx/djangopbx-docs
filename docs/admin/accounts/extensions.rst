@@ -1,6 +1,5 @@
-************
 Extensions
-************
+============
 
 **Extensions** An extension represents an endpoint such as a desk phone,
 soft phone or analogue adapter.  The extension becomes the SIP username
@@ -8,15 +7,15 @@ and the domain becomes the realm that determines which tenant the endpoint
 is registering with.
 
 
-.. image:: ../../_static/images/admin/extension_list.jpg
+.. image:: ../../_static/images/admin/accounts/extension_list.jpg
         :scale: 85%
 
 
-**Extensions** have some additional *Admin Actions* that can be
+**Extensions** have some additional **Admin Actions** that can be
 performed on selected records, the screenshot below shows these.
 
 
-.. image:: ../../_static/images/admin/extension_actions.jpg
+.. image:: ../../_static/images/admin/accounts/extension_actions.jpg
         :scale: 100%
 
 
@@ -33,10 +32,10 @@ The Edit Screen
 ~~~~~~~~~~~~~~~~~
 
 The **Extension** edit screen has several sections, the main window and
-two collapsible sections, *Call Routing* and *Advanced*
+two collapsible sections, **Call Routing** and **Advanced**
 
 
-.. image:: ../../_static/images/admin/extension_edit.jpg
+.. image:: ../../_static/images/admin/accounts/extension_edit.jpg
         :scale: 85%
 
 
@@ -105,7 +104,7 @@ Advanced Settings
 
 The *Advanced settings* should be left as default in most cases.  They provide the ability for fine tuning.
 
-.. image:: ../../_static/images/admin/extension_edit_advanced.jpg
+.. image:: ../../_static/images/admin/accounts/extension_edit_advanced.jpg
         :scale: 85%
 
 
@@ -134,7 +133,7 @@ Call Routing
 
 The *Call Routing* section allows the extension user to choose how the call is routed in various circumstances.
 
-.. image:: ../../_static/images/admin/extension_call_routing.jpg
+.. image:: ../../_static/images/admin/accounts/extension_call_routing.jpg
         :scale: 85%
 
 

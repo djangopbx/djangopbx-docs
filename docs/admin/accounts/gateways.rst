@@ -1,21 +1,20 @@
-**********
 Gateways
-**********
+==========
 
 *Gateways* provide access into other SIP networks. These can be Internet
 Telephony Service Providers or other services that may or may not
 require SIP registration.
 
 
-.. image:: ../../_static/images/admin/gateway_list.jpg
+.. image:: ../../_static/images/admin/accounts/gateway_list.jpg
         :scale: 85%
 
 
-**Gateways** have some additional *Admin Actions* that can be
+**Gateways** have some additional **Admin Actions** that can be
 performed on selected records, the screenshot below shows these.
 
 
-.. image:: ../../_static/images/admin/gateway_actions.jpg
+.. image:: ../../_static/images/admin/accounts/gateway_actions.jpg
         :scale: 100%
 
 
@@ -37,7 +36,7 @@ The **Gateway** edit screen has two sections, the main window and
 a collapsible *Advanced* section.
 
 
-.. image:: ../../_static/images/admin/gateway_edit.jpg
+.. image:: ../../_static/images/admin/accounts/gateway_edit.jpg
         :scale: 85%
 
 
@@ -82,7 +81,7 @@ Advanced Settings
 
 The *Advanced settings* should be left as default in most cases.  They provide the ability adjust some values.
 
-.. image:: ../../_static/images/admin/gateway_advanced.jpg
+.. image:: ../../_static/images/admin/accounts/gateway_advanced.jpg
         :scale: 85%
 
 

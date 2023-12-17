@@ -1,5 +1,5 @@
-Architectural Overview
-=======================
+Architecture
+**************
 
 **DjangoPBX** is written in `Python <https://www.python.org/>`_ using
 the `Django Framework <https://www.djangoproject.com/>`_.
@@ -20,4 +20,4 @@ firewall that can be dynamically configured from within the DjangoPBX applicatio
   :maxdepth: 3
   :glob:
 
-  architectural_overview/high_level_view.rst
+  high_level_view.rst

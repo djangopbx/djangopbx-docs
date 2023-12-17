@@ -1,5 +1,5 @@
 Admin Interface
-=================
+*****************
 
 One of the most powerful parts of Django is the **Admin** interface.
 DjangoPBX utilises the Admin interface to provide access to all the
@@ -15,8 +15,7 @@ These actions are provided via the user portal interface.
   :maxdepth: 3
   :glob:
 
-  admin/overview.rst
-  admin/accounts/bridges.rst
-  admin/accounts/extensions.rst
-  admin/accounts/gateways.rst
-  admin/administration/log_entries.rst
+  overview.rst
+  accounts/accounts.rst
+  administration/administration.rst
+  callcentres/callcentres.rst

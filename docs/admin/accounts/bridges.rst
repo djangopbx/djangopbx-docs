@@ -1,11 +1,10 @@
-#########
 Bridges
-#########
+=========
 
 
 Bridges are used to send calls directly to other hosts like  a carrier or foreignr PBX. Bridges are added to destination select list.
 
-.. image:: ../../_static/images/admin/bridge_list.jpg
+.. image:: ../../_static/images/admin/accounts/bridge_list.jpg
         :scale: 100%
 
 
@@ -14,7 +13,7 @@ Bridges are used to send calls directly to other hosts like  a carrier or foreig
 * check the box on one or more record and select the delete action to remove records
 
 Bridge Examples
-^^^^^^^^^^^^^^^^^
+-----------------
 
 **To another SIP server or PBX**
 

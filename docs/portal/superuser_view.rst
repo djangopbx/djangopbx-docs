@@ -1,6 +1,5 @@
-################
 Superuser View
-################
+================
 
 
 When loging in as a superuser, many more menus are available to you.

@@ -1,6 +1,5 @@
-######
 Login
-######
+=======
 
 
 When first connecting to your DjangoPBX URL, you will be presented with a login dialogue.

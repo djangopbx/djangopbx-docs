@@ -1,5 +1,6 @@
+######
 Home
-======
+######
 
 
 **DjangoPBX** is a project to provide a GUI configuration
@@ -12,27 +13,26 @@ DjangoPBX is **completely open source** and basically does two things:
 2. It generates FreeSITCH configuration from the data you provide in the Admin interface.
 
 
-Architectural Overview
-========================
+Architecture
+**************
 
 .. toctree::
    :maxdepth: 4
 
-   architectural_overview.rst
+   architecture/architecture.rst
 
 Admin Interface
-=================
+*****************
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
 
-   admin.rst
+   admin/admin.rst
 
 Portal
-========
+********
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
 
-   portal.rst
-
+   portal/portal.rst
