@@ -17,7 +17,9 @@ firewall that can be dynamically configured from within the DjangoPBX applicatio
 
 
 .. toctree::
-  :maxdepth: 3
+  :maxdepth: 1
   :glob:
 
   high_level_view.rst
+  db_schema.rst
+  db_entity_relationship_diagram.rst

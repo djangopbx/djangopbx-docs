@@ -17,5 +17,6 @@ These actions are provided via the user portal interface.
 
   overview.rst
   accounts/accounts.rst
+  autoreports/autoreports.rst
   administration/administration.rst
   callcentres/callcentres.rst
