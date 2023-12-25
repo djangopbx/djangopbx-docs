@@ -1,7 +1,7 @@
 Auto Reports
 ==============
 
-**Auto Reports** provides statiscical reproting for both administrators and end users.
+**Auto Reports** provide statiscical reporting for both administrators and end users.
 The reports are automatically delivered via email at chosen intervals.
 
 

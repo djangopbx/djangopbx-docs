@@ -1,16 +1,16 @@
 An Example report
 ===================
 
-The **Auto Reports** listing shows all the available reprots for a given domain, here
+The **Auto Reports** listing shows all the available reports for a given domain, here
 there is an option to edit or view the report.
 
 .. image:: ../../_static/images/admin/autoreports/autoreports_list.jpg
         :scale: 85%
 
 
-When view report is clicked the system will generate the report in real time and
- display the results.  This can be helpful when prototyping new reports.  This screen
-will alsoo let you know if there were any errors in generating the report.
+When **View Report** is clicked the system will generate the report in real time and
+display the results.  This can be helpful when prototyping new reports.  This screen
+will also let you know if there were any errors in generating the report.
 
 
 The Edit Screen
@@ -33,7 +33,8 @@ your SQL query.
 The Report Email
 ~~~~~~~~~~~~~~~~~~
 
-The actual email generated and sent out from the example report above is shown below:
+This is an actual email generated and sent out from the example report above.
+The email client showing the message is Thunderbird.
 
 .. image:: ../../_static/images/admin/autoreports/autoreports_email.jpg
         :scale: 85%
