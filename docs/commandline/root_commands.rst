@@ -26,3 +26,17 @@ only the (djangopbx) instance will need to be reloaded.
  root@djangopbx.com:~# uwsgi --reload /var/run/uwsgi/app/djangopbx/pid
 
 
+systemctl start freeswitch
+----------------------------
+Starts the FreeSWITCH daemon.
+::
+
+ root@djangopbx.com:~# systemctl start freeswitch
+
+
+systemctl stop freeswitch
+----------------------------
+Stops the FreeSWITCH daemon.
+::
+
+ root@djangopbx.com:~# systemctl stop freeswitch
