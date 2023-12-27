@@ -29,6 +29,14 @@ Admin Interface
 
    admin/admin.rst
 
+CLI Interface
+***************
+
+.. toctree::
+   :maxdepth: 2
+
+   commandline/commandline.rst
+
 Portal
 ********
 

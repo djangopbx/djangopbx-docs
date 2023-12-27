@@ -1,8 +1,8 @@
 Auto Report Crontab Entries
 =============================
 
-Auto Reports rely on the crontab for the django-pbx user.
-Typical additions made to the crontab file for Auto Reports are shown below:
+**Auto Reports** rely on the **crontab** for the django-pbx user.
+Typical additions made to the **crontab** file for **Auto Reports** are shown below:
 
 ::
 
@@ -14,7 +14,7 @@ Typical additions made to the crontab file for Auto Reports are shown below:
 
 
 
-The file is called **crontab** and is located in the django-pbx home directory: :file:`/home/django-pbx/crontab`
+The file is called **crontab** and is located in the django-pbx home directory: :file:`/home/django-pbx/crontab`.
 Any changes made to this file will not take effect until the following Operating System command is issued:
 
 ::

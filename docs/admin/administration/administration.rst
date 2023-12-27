@@ -2,7 +2,7 @@ Administration
 ================
 
 The **Administration** section provides access to non authentication administration
-resources like logs.
+resources, such as logs.
 
 
 .. toctree::

@@ -2,7 +2,7 @@ Bridges
 =========
 
 
-Bridges are used to send calls directly to other hosts like  a carrier or foreignr PBX. Bridges are added to destination select list.
+Bridges are used to send calls directly to other hosts, such as a carrier or foreign PBX. Bridges are added to destination select list.
 
 .. image:: ../../_static/images/admin/accounts/bridge_list.jpg
         :scale: 100%
@@ -10,7 +10,7 @@ Bridges are used to send calls directly to other hosts like  a carrier or foreig
 
 * Click the +Add icon or Add+ button to add a record
 * Click on the name in the list to edit a record
-* check the box on one or more record and select the delete action to remove records
+* Check the box on one or more record and select the delete action to remove records
 
 Bridge Examples
 -----------------
@@ -38,7 +38,7 @@ Bridge Examples
 
  Comma , connects simultaneously
  Pipe |  connects in a sequence
- colon under score colon  :_: uses Enterprise (separate thread per destination)
+ colon underscore colon  :_: uses Enterprise (separate thread per destination)
 
 **Loopback to an external number**
 

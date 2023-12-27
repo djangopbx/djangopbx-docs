@@ -1,7 +1,7 @@
 An Example report
 ===================
 
-The **Auto Reports** listing shows all the available reports for a given domain, here
+The **Auto Reports** listing shows all the available reports for a given domain; here
 there is an option to edit or view the report.
 
 .. image:: ../../_static/images/admin/autoreports/autoreports_list.jpg
@@ -16,11 +16,11 @@ will also let you know if there were any errors in generating the report.
 The Edit Screen
 ~~~~~~~~~~~~~~~~~
 
-The **Auto Reports** edit screen has several sections, the main window and
-a collapsible section for update detail.
+The **Auto Reports** edit screen, *Change auto reports*, has several sections: the main window and
+a collapsible section for update info details.
 
-There is also a **Auto Report Section** section that allows any number of
-report sections to be added.  Each report section has it's own SQL query.
+There is also an **Auto Report Section** section that allows any number of
+report sections to be added.  Each report section has its own SQL query.
 
 It may be helpful to refer to the :doc:`../../architecture/db_entity_relationship_diagram`
 or the :doc:`../../architecture/db_schema` documents when constructing

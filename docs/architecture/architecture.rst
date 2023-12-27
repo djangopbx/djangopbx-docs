@@ -7,12 +7,12 @@ the `Django Framework <https://www.djangoproject.com/>`_.
 The main component is of course `FreeSWITCH <https://www.freeswitch.org/>`_ which
 is a very powerful and highly scalable multi-platform voice and video switch.
 
-`uWSGI <https://en.wikipedia.org/wiki/UWSGI/>`_ serves the DjangoPBX output to
-both FreeSWITCH and an NGINX web server.
+`uWSGI <https://en.wikipedia.org/wiki/UWSGI>`_ serves the DjangoPBX output to
+both FreeSWITCH and a NGINX web server.
 
 `PostgreSQL <https://www.postgresql.org/>`_ provides the database back end.
 
-**All services** are protected by `nftables <https://nftables.org//>`_ which provides a
+**All services** are protected by `nftables <https://nftables.org/projects/nftables/index.html>`_ which provides a
 firewall that can be dynamically configured from within the DjangoPBX application.
 
 

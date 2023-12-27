@@ -19,9 +19,9 @@ The Queue
 ^^^^^^^^^^^
 
 From left to right, the top row of cards shows a clock with the date, the Queue name
-with a count of its agents, then Trying, Waiting, Answered and Abandoned.
+with a count of its Agents, then Trying, Waiting, Answered and Abandoned.
 
-* **Trying** is the number of Agents bing called.
+* **Trying** is the number of Agents being called.
 * **Waiting** is the number of calls waiting to be answered by an Agent.
 * **Answered** is a count of how many calls that have been sucessfully answered by Agents.
 * **Abandoned** is a count of the number of calls that have ended without being answered.
@@ -33,7 +33,7 @@ threshold levels set.  By default OK is Green, Warning is Amber, and Critical is
 The Agents
 ^^^^^^^^^^^^
 
-The Agent card header displays the Agents status, the card body colour also reflects
+The Agent card header displays the Agent's status, the card body colour also reflects
 the Agent's status.  The status can be one of:
 
 * **Logged Out:** Grey
@@ -42,7 +42,7 @@ the Agent's status.  The status can be one of:
 * **Ringing:** Amber
 * **Answered:** Green
 
-The numbers at the very bottom of the Agent card is the number of hours, minutes an seconds
+The numbers at the very bottom of the Agent card is the number of hours, minutes and seconds
 since the status last changed.  An Agent who is yet to log in for the first time will display
 "Never" on this line.
 
