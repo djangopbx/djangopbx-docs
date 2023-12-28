@@ -20,3 +20,5 @@ These actions are provided via the user portal interface.
   autoreports/autoreports.rst
   administration/administration.rst
   callcentres/callcentres.rst
+  callblock/callblock.rst
+  dialplan_manager/dialplan_manager.rst

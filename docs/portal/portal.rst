@@ -15,5 +15,6 @@ Call Routing, Applications and, of course, the option to Logout.
   logout.rst
   user_view.rst
   superuser_view.rst
+  call_routing/call_routing.rst
   applications/applications.rst
   advanced/advanced.rst
