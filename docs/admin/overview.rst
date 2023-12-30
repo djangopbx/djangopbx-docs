@@ -1,6 +1,6 @@
+****************
 Admin Overview
-================
-
+****************
 
 The **Admin Interface** is the place where all the superuser
 configuration tasks are undertaken.  This is often just a simple
@@ -12,7 +12,6 @@ can be found.  See the image below:
 
 .. image:: ../_static/images/admin/record_update_info.jpg
         :scale: 100%
-
 
 Below are two screenshots of the **Admin Interface**.
 The first shows the default set of models that will

@@ -6,7 +6,6 @@ soft phones or analogue adapters.  The extension becomes the SIP username
 and the domain becomes the realm that determines which tenant the endpoint
 is registering with.
 
-
 .. image:: ../../_static/images/admin/accounts/extension_list.jpg
         :scale: 85%
 
@@ -14,13 +13,12 @@ is registering with.
 **Extensions** have some additional **Admin Actions** that can be
 performed on selected records, the screenshot below shows these.
 
-
 .. image:: ../../_static/images/admin/accounts/extension_actions.jpg
         :scale: 100%
 
 
 Actions
-~~~~~~~~~
+---------
 
 *  Delete selected extensions
     Self-explanatory.
@@ -31,19 +29,17 @@ Actions
 
 
 The Edit Screen
-~~~~~~~~~~~~~~~~~
+-----------------
 
 The **Extension** edit screen, *Change extension*, has several sections: the main window and
 two collapsible sections, **Call Routing** and **Advanced**.
-
 
 .. image:: ../../_static/images/admin/accounts/extension_edit.jpg
         :scale: 85%
 
 
-
 The Main Window
-~~~~~~~~~~~~~~~~~
+-----------------
 
 *  Extension
     An alphanumeric value. The default configuration allows between 2 and 7 digits.
@@ -102,7 +98,7 @@ The Main Window
 
 
 Advanced Settings
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 The *Advanced settings* should be left as default in most cases.  They provide the ability for fine tuning.
 
@@ -131,7 +127,7 @@ The *Advanced settings* should be left as default in most cases.  They provide t
 
 
 Call Routing
-~~~~~~~~~~~~~~
+--------------
 
 The *Call Routing* section allows the extension user to choose how the call is routed in various circumstances.
 

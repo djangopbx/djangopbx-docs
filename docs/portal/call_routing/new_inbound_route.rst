@@ -15,22 +15,23 @@ The screenshot below shows the **Action** select drop-down in more detail:
 .. image:: ../../_static/images/portal/call_routing/new_inbound_route_action.jpg
         :scale: 100%
 
-Options
-'''''''''
 
-- **Prefix**: Adds and optional prefix to the destination.
+Options
+---------
+
+- **Prefix**: Adds an optional prefix to the destination.
 - **Destination**: The Number (DID) called from the Public Switched Telephone Network (PSTN).
 - **Context**: Context of the Inbound Route. Usually will be public.
 - **Action**: What we should do with the call.
 - **Caller ID Name Prefix**:  A short prefix that can be added to the inbound caller ID.  This can help identify on which line the call came in.
-- **Record**: Specifies if call from this route should be recorded.
+- **Record**: Specifies if calls from this route should be recorded.
 - **Account Code**: Can be used as a tag for billing purposes.
 - **Enabled**: If the Inbound Route is enabled or disabled.
-- **Description**: A way to describe what the inbound route is used for.
+- **Description**: A way to describe what the Inbound route is used for.
 
 
 Inbound Route Dialplan Entry Created
-''''''''''''''''''''''''''''''''''''''
+------------------------------------
 
 The screenshot below shows the dialplan record created from the details entered in the edit screenshot above:
 
@@ -39,7 +40,7 @@ The screenshot below shows the dialplan record created from the details entered 
 
 
 Example XML
-'''''''''''''
+-------------
 
 Below is the dialplan XML that was generated from the details entered in the edit screenshot above:
 

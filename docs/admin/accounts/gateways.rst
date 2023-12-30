@@ -5,7 +5,6 @@ Gateways
 Telephony Service Providers or other services that may or may not
 require SIP registration.
 
-
 .. image:: ../../_static/images/admin/accounts/gateway_list.jpg
         :scale: 85%
 
@@ -13,13 +12,12 @@ require SIP registration.
 **Gateways** have some additional **Admin Actions** that can be
 performed on selected records, the screenshot below shows these.
 
-
 .. image:: ../../_static/images/admin/accounts/gateway_actions.jpg
         :scale: 100%
 
 
 Actions
-~~~~~~~~~
+---------
 
 *  Delete selected gateways
     Self-explanatory.
@@ -32,19 +30,17 @@ Actions
 
 
 The Edit Screen
-~~~~~~~~~~~~~~~~~
+-----------------
 
 The **Gateway** edit screen, *Change gateway*, has two sections: the main window and
 a collapsible **Advanced** section.
-
 
 .. image:: ../../_static/images/admin/accounts/gateway_edit.jpg
         :scale: 85%
 
 
-
 The Main Window
-~~~~~~~~~~~~~~~~~
+----------------
 
 * Gateway
     The name of the Gateway.  This can be anything you like, such as a VoIP provider, an account or service.
@@ -79,7 +75,7 @@ The Main Window
 
 
 Advanced Settings
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 The *Advanced settings* should be left as default in most cases.  They provide the ability to adjust some values.
 

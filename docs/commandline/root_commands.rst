@@ -1,11 +1,13 @@
-Commands Issued by the root user
-==================================
+**********************************
+Commands Issued by the Root User
+**********************************
 
 This is a short list of commends that can be issued by the root user
 to control parts of DjangoPBX.
 
+
 uwsgi
-------
+=======
 If you have made changes to a DjangoPBX application or have upgraded
 via git pull or otherwise then you will need to reload the **uwsgi** daemon.
 Changes on the Python code will not take effect until you do this.
@@ -17,7 +19,7 @@ FreeSWITCH falls back to a port on the web server if the fs_config instance is u
 so reloading these one at a time will not affect the running of the switch.
 
 If the update does not include changes to the XML handler ot the HTTAPI handler then
-only the (djangopbx) instance will need to be reloaded.
+only the djangopbx instance will need to be reloaded.
 ::
 
  uwsgi <command> <PID>
@@ -27,7 +29,7 @@ only the (djangopbx) instance will need to be reloaded.
 
 
 systemctl start freeswitch
-----------------------------
+============================
 Starts the FreeSWITCH daemon.
 ::
 
@@ -35,7 +37,7 @@ Starts the FreeSWITCH daemon.
 
 
 systemctl stop freeswitch
-----------------------------
+===========================
 Stops the FreeSWITCH daemon.
 ::
 

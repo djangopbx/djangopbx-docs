@@ -1,7 +1,6 @@
 Bridges
 =========
 
-
 Bridges are used to send calls directly to other hosts, such as a carrier or foreign PBX. Bridges are added to destination select list.
 
 .. image:: ../../_static/images/admin/accounts/bridge_list.jpg

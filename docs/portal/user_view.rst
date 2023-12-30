@@ -1,6 +1,6 @@
+***********
 User View
-===========
-
+***********
 
 This is a view of menus that an ordinary user will see once logged in.
 

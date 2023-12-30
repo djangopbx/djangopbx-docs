@@ -1,5 +1,6 @@
+#################
 Admin Interface
-*****************
+#################
 
 One of the most powerful parts of Django is the **Admin Interface**.
 DjangoPBX utilises the **Admin Interface** to provide access to all the
@@ -13,7 +14,6 @@ These actions are provided via the user portal interface.
 
 .. toctree::
   :maxdepth: 3
-  :glob:
 
   overview.rst
   accounts/accounts.rst
@@ -22,3 +22,4 @@ These actions are provided via the user portal interface.
   callcentres/callcentres.rst
   callblock/callblock.rst
   dialplan_manager/dialplan_manager.rst
+  tenants/tenants.rst

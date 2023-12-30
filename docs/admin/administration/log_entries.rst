@@ -1,8 +1,7 @@
 Log Entries
 =============
 
-
-The Log Entry Viewer allows a superuser to see actions that
+The **Log Entry** viewer allows a superuser to see actions that
 have happened on the system.  It can be a large list but there
 are list filters to help.
 

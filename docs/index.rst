@@ -1,7 +1,6 @@
-######
-Home
-######
-
+##########
+Contents
+##########
 
 **DjangoPBX** is a project to provide a GUI configuration
 and management interface around FreeSWITCH™ using Django
@@ -13,32 +12,20 @@ DjangoPBX is **completely open source** and basically does two things:
 2. It generates FreeSITCH configuration from the data you provide in the Admin interface.
 
 
-Architecture
-**************
-
 .. toctree::
    :maxdepth: 2
 
    architecture/architecture.rst
-
-Admin Interface
-*****************
 
 .. toctree::
    :maxdepth: 2
 
    admin/admin.rst
 
-CLI Interface
-***************
-
 .. toctree::
    :maxdepth: 2
 
    commandline/commandline.rst
-
-Portal
-********
 
 .. toctree::
    :maxdepth: 3

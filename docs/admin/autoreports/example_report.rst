@@ -14,7 +14,7 @@ will also let you know if there were any errors in generating the report.
 
 
 The Edit Screen
-~~~~~~~~~~~~~~~~~
+-----------------
 
 The **Auto Reports** edit screen, *Change auto reports*, has several sections: the main window and
 a collapsible section for update info details.
@@ -31,7 +31,7 @@ your SQL query.
 
 
 The Report Email
-~~~~~~~~~~~~~~~~~~
+------------------
 
 This is an actual email generated and sent out from the example report above.
 The email client showing the message is Thunderbird.

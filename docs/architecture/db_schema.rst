@@ -1,4 +1,4 @@
-
+***********
 DB Schema
 ***********
 
@@ -24,7 +24,6 @@ Idx     Name Data Type
 
 **Indexes**
 
-
 ==== ============================= =======
 Type Name                          On
 ==== ============================= =======
@@ -32,6 +31,7 @@ Type Name                          On
 🔍   auth_group_name_key           ON name
 🔎   auth_group_name_a6ea08ec_like ON name
 ==== ============================= =======
+
 
 Table public.auth_group_permissions
 =====================================

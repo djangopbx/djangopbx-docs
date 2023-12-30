@@ -1,6 +1,5 @@
 Call Centre Queues
-====================
-
+--------------------
 
 An ordinary user with appropriate Call Centre permissions has access to a restricted subset of these settings.
 The queues are accessed via the Call Centres application
@@ -13,8 +12,7 @@ The queues are accessed via the Call Centres application
 
 
 Queue Settings View
----------------------
-
+^^^^^^^^^^^^^^^^^^^^^
 
 The settings available here control how the Queue will display on the Wallboard.
 
@@ -34,4 +32,3 @@ The settings available here control how the Queue will display on the Wallboard.
 All the Wallboard colours are controllable via the pbx.css stylesheet.
 
 The **Buttons** allow you to simply **Update** the settings, **Reset** the counters to zero, or **Launch** the Wallboard
-

@@ -1,5 +1,6 @@
+########################
 Command Line Interface
-************************
+########################
 
 Use of the command line divides into two categories:
 
@@ -16,7 +17,6 @@ useful commands.
 
 .. toctree::
   :maxdepth: 3
-  :glob:
 
   django_management_commands.rst
   root_commands.rst

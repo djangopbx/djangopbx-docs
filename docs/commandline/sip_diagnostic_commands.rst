@@ -1,6 +1,6 @@
-SIP diagnostic Commands
-=========================
-
+*************************
+SIP Diagnostic Commands
+*************************
 
 These commands are small shell scripts that have been installed for you in
 the :file:`/usr/local/bin` directory.  All of the scripts use sudo to enable
@@ -8,9 +8,9 @@ running the various utilities as root.  These scripts can help in diagnosing
 problems at the SIP protocol level and also be used for just looking at the
 traffic going to and from your DjangoPBX instance.
 
-Commmad line parameters in [] are optional, parameters in <> are mandatory.
+Commmand line parameters in [] are optional, parameters in <> are mandatory.
 
-A **file ident** togehter with the current date an dtime helps to form part
+A **file ident** togehter with the current date and time helps to form part
 of the filename used to create a packet caputure or .pcap file.
 If you used "my_customer" as the **file ident** then the resulting .pcap file would be something
 like **202312271841-my_customer.pcap**
@@ -37,7 +37,7 @@ The following commands can all be issued by the django-pbx user at the command p
     Displays on screen all packets to/from an ip address. CTRL-C to end.
 
 - **watchsipuser <user id>**
-    Displays on screen all packets containing user id. CTRL-C to end.
+    Displays on screen all packets containing a specific user id. CTRL-C to end.
 
 - **watchregisterip <ip address>**
     Displays on screen all REGISTER message exchanges to/from an ip address. CTRL-C to end.
@@ -48,7 +48,7 @@ The following three commands are wrappers around `sngrep <https://github.com/iro
     Runs sngrep as root.
 
 - **watchsipcall**
-    Runs sngrep in calls mode, This will only display dialogs starting with INVITE.
+    Runs sngrep in calls mode. This will only display dialogs starting with INVITE.
 
 - **watchsipuser <user id>**
     Runs sngrep focusing on a specified SIP user.
@@ -60,12 +60,12 @@ The following three commands are wrappers around `sngrep <https://github.com/iro
     line switches.
 
 
-
 Typical results (output)
---------------------------
+==========================
+
 
 watch5060
-'''''''''''
+-----------
 
 This is the output from a **watch5060**.  This shows a REGISTRATION message exchange
 between a Yealink T27G telephone and an instance of DjangoPBX with the FQDN test21.djangopbx.com.
@@ -143,7 +143,7 @@ between a Yealink T27G telephone and an instance of DjangoPBX with the FQDN test
 
 
 sngrep
-''''''''
+--------
 
 This screenshot shows a typical call (INVITE through to BYE) viewed in an sngrep session:
 

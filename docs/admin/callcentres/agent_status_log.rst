@@ -1,7 +1,6 @@
 Agent Status Log
 ==================
 
-
 The Agent Status Log Viewer allows for an agent's availability to be measured over time.
 
 

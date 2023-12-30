@@ -12,20 +12,19 @@ use.
 **Queues** have some additional **Admin Actions** that can be
 performed on selected records, the screenshot below shows two.
 
-
 .. image:: ../../_static/images/admin/callcentres/queue_actions.jpg
         :scale: 100%
 
 
 Actions
-~~~~~~~~~
+---------
 
 *  Delete selected Call Centre Queues
 *  Reload selected Call Centre Queues
 
 
 The Edit Screen
-~~~~~~~~~~~~~~~~~
+-----------------
 
 The **Queue** edit screen, *Change call centre queues*, has several sections: the main window and
 a collapsible section for **Wallboard** Settings
@@ -33,14 +32,12 @@ a collapsible section for **Wallboard** Settings
 There is also a **Call Centre Tiers** section that allows Agents to be
 assigned to the **Queue** with Tier levels and positions.
 
-
 .. image:: ../../_static/images/admin/callcentres/queue_edit.jpg
         :scale: 85%
 
 
-
 Queue Options
-~~~~~~~~~~~~~~~~
+---------------
 
 * Name
     The Queue name.

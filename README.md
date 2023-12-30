@@ -56,3 +56,29 @@ Information about formatting text using .rst files can be found in the documenta
  - [Sphinx Tutorial](https://www.sphinx-doc.org/en/master/tutorial/index.html)
  - [reStructuredText Primer](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html)
  - [reStructuredText Quick refernce](https://docutils.sourceforge.io/docs/user/rst/quickref.html)
+
+
+For headings (chapters, sections etc.),  This documentation has adopted the convention suggested by the
+Python documentation:
+```
+    Title
+    =====
+
+    Titles are underlined (or over- and underlined) with
+    a nonalphanumeric character at least as long as the
+    text.
+
+    A lone top-level section is lifted up to be the
+    document's title.
+
+    Any non-alphanumeric character can be used, but
+    Python convention is:
+
+    # with overline, for parts
+    * with overline, for chapters
+    = for sections 
+    - for subsections
+    ^ for subsubsections
+    " for paragraphs
+
+```

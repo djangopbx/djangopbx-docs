@@ -1,5 +1,6 @@
+##############
 Architecture
-**************
+##############
 
 **DjangoPBX** is written in `Python <https://www.python.org/>`_ using
 the `Django Framework <https://www.djangoproject.com/>`_.
@@ -18,7 +19,6 @@ firewall that can be dynamically configured from within the DjangoPBX applicatio
 
 .. toctree::
   :maxdepth: 1
-  :glob:
 
   high_level_view.rst
   db_schema.rst

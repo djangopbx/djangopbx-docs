@@ -13,7 +13,6 @@ Typical additions made to the **crontab** file for **Auto Reports** are shown be
  #0 9-17 * * * cd /home/django-pbx/pbx; python3 manage.py timedreport --frequency hour > /dev/null 2>&1
 
 
-
 The file is called **crontab** and is located in the django-pbx home directory: :file:`/home/django-pbx/crontab`.
 Any changes made to this file will not take effect until the following Operating System command is issued:
 

@@ -9,7 +9,7 @@ Call Centre Queues.
 
 
 The Edit Screen
-~~~~~~~~~~~~~~~~~
+-----------------
 
 The **Agent** edit screen, *Change call centre agents*, shows the setting for an Agent.
 Agents have Status and States. The Status is the general state of the agent
@@ -20,9 +20,8 @@ based on the progress of an agent in a call.
         :scale: 85%
 
 
-
 Agent Options
-~~~~~~~~~~~~~~~~
+---------------
 
 *  Agent Name
     Name of the Agent. When adding Agents to a Queue, this is what describes the Agent.
