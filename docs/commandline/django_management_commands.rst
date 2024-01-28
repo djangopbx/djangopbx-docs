@@ -116,6 +116,12 @@ Create fixtrue data files for Menu Items
  django-pbx:~/pbx$ python3 manage.py portal.menuitemgroup --indent 4 > portal/fixtures/memuitemgroup.json
 
 
+View fixtrue data  for one single default setting
+::
+
+ django-pbx:~/pbx$ python3 manage.py dumpdata tenants.defaultsetting --indent 4 | grep -A11 -B6 yealink_dnd_on_code
+
+
 .. _loaddata:
 
 loaddata
@@ -146,6 +152,8 @@ Synchronises the database schema and state with the current set of models and mi
  django-pbx:~/pbx$ python3 manage.py migrate
 
 
+.. _reinstatefwsipcustomerlist:
+
 reinstatefwsipcustomerlist
 ============================
 Run this command after a reboot or after reloading the firewall.
@@ -154,6 +162,16 @@ with a status of **current** are added to the firewall SIP customer list.
 ::
 
  django-pbx:~/pbx$ python3 manage.py reinstatefwsipcustomerlist
+
+
+updatedefaultsetting
+======================
+This allows an existing default settting to be updated.
+This command is primarily used by the installer script but it can
+be handy at other times.
+::
+
+ django-pbx:~/pbx$ python3 manage.py updatedefaultsetting --category cluster --subcategory switch_name_1 --value djangopbx-dev2
 
 
 sipprofiledefaults

@@ -21,3 +21,4 @@ useful commands.
   django_management_commands.rst
   root_commands.rst
   sip_diagnostic_commands.rst
+  upgrading_commands.rst
