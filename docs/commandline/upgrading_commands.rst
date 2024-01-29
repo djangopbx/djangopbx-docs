@@ -6,7 +6,7 @@ This is a short list of commands that can be issued by the root user
 and the django-pbx user when upgrading your DjangoPBX installation.
 
 In most cases an update can be achieved with a simple git pull.
-You **MUST** be logged in as the djangp-pbx user when issuing git commands.
+You **MUST** be logged in as the django-pbx user when issuing git commands.
 The git pull will bring down any new or modified files.
 
 There will be occasions where a git pull will identify a conflict.
