@@ -69,7 +69,17 @@ Do not run in production with DEBUG set to True.:
 The Upgrade
 -------------
 
-Most of the time a simple git pull will suffice:
+Most of the time you can use the Generic Update script,
+If you use this you must be logged as root:
+::
+
+ cd /home/django-pbx/pbx
+ ./generic-update.sh
+
+
+If you wish to do the steps manually then,
+most of the time a simple git pull will suffice,
+You must be logged in as the django-pbx user:
 ::
 
  cd ~/pbx

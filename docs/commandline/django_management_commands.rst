@@ -116,10 +116,16 @@ Create fixtrue data files for Menu Items
  django-pbx:~/pbx$ python3 manage.py portal.menuitemgroup --indent 4 > portal/fixtures/memuitemgroup.json
 
 
-View fixtrue data  for one single default setting
+View fixtrue data for one single default setting
 ::
 
  django-pbx:~/pbx$ python3 manage.py dumpdata tenants.defaultsetting --indent 4 | grep -A11 -B6 yealink_dnd_on_code
+
+
+View fixtrue data for one single switch variable
+::
+
+ django-pbx:~/pbx$ python3 manage.py dumpdata switch.switchvariable --indent 4 | grep -A12 -B5 default_dialect
 
 
 .. _loaddata:
