@@ -28,6 +28,8 @@ Actions
 *  Stop gateway
     This will stop the selected gateways and mark them disabled.
 
+When you add or make changes to a gateway run the "Reload gateway profile" acton when you are happy with it.
+
 
 The Edit Screen
 -----------------
